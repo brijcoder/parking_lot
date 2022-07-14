@@ -8,7 +8,6 @@ public class ClientMain {
 		//Vehicle car = new Vehicle(VehicleType.CAR);
 		Vehicle car = new Vehicle(VehicleType.CAR);
 		parkingLot.parkVehicle(car);
-		
 		parkingLot.parkVehicle(truck);
 		parkingLot.unParkVehicle(truck);
 		parkingLot.unParkVehicle(truck);
@@ -18,4 +17,5 @@ public class ClientMain {
 
 // make it at least 3-4 floor and return parking spot. 
 // add location in this and mark the parking point. 
-// 
+//
+//
