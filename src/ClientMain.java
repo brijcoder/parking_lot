@@ -6,9 +6,10 @@ public class ClientMain {
 		
 		Vehicle truck = new Vehicle(VehicleType.TRUCK);
 		//Vehicle car = new Vehicle(VehicleType.CAR);
+		Vehicle car = new Vehicle(VehicleType.CAR);
+		parkingLot.parkVehicle(car);
 		
 		parkingLot.parkVehicle(truck);
-		
 		parkingLot.unParkVehicle(truck);
 		parkingLot.unParkVehicle(truck);
 	}
